@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.button-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.button-Container button {
+  width: 12vw;
+  height: 8vh;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-Container button:hover {
+  background-color: grey;
+}
